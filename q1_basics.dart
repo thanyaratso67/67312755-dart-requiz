@@ -22,7 +22,7 @@ void main() {
 
   for (var  item in menu ) {
     if (price >= 50) {
-      print(item {''});
+      print('{$menu{name}:$menu{price} บาท');
 
     }
   }
